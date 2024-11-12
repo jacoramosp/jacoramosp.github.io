@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: rgb(155, 155, 155);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 35px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+.navbar a{
+    display: block;
+    padding: 13px 13px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 22px;
+    
+}
+
+.navbar a:hover {
+    background: rgb(133, 132, 132);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header{
+    height: 80vh !important;
+    background: url(fondonegro.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+}
+
+.p{
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: rgb(155, 155, 155);
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+}
+
+.btn:hover{
+    background: rgb(155, 155, 155);
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a {
+    margin: 20px 40px;
+}
+
+.content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-image: url(fondon.jpg);
+    background-size: cover;
+    font-size: 18px;
+}
+
+.sau{
+    padding: 60px;
+    background-image: url(fonddo.jpg);
+    background-size: cover;
+    font-size: 18px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gallery img{
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .5s ease;
+    margin: 0 10px;
+}
+
+.gallery img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.contact{
+    padding: 40px 0;
+    background-image: url(FONDONN.jpg);
+    background-size: cover;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+footer{ 
+    width: 100%;
+    height: 200px;
+    background-color: rgb(155, 155, 155);
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+}
+
+footer p{
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.formulario{
+    background-color: rgb(99, 99, 99);
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+input, textarea{
+    width: 90px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    width: 90px;
+    padding: 10px;
+    background-color: #858585;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
